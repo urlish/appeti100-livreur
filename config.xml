@@ -17,7 +17,6 @@
 	<preference name="orientation" value="portrait" />
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
-	<preference name="phonegap-version" value="3.7.0" />
 		
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
@@ -31,7 +30,7 @@
 	<gap:plugin name="cordova-plugin-x-toast" source="npm" />	
 	<gap:plugin name="cordova-plugin-media" />	
 		   
-    <gap:plugin spec="cordova-plugin-googlemaps" source="npm" >
+    <gap:plugin spec="https://github.com/mapsplugin/cordova-plugin-googlemaps.git" source="git" >
        <param name="API_KEY_FOR_ANDROID" value="AIzaSyCMGLQORod-uvQD3Wn5x-cwZmE1_AAstNc" />
        <param name="API_KEY_FOR_IOS" value="XXX" />
     </gap:plugin>

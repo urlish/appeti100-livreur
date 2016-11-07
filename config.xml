@@ -17,9 +17,12 @@
 	<preference name="orientation" value="portrait" />
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
+	<plugin name="phonegap-plugin-push" source="npm" spec="1.5.3">
+    <param name="SENDER_ID" value="651716383412" />
+	</plugin>
 		
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
+    
     <gap:plugin name="cordova-plugin-device" source="npm"/>		
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />		
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>	
